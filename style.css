@@ -10,7 +10,6 @@ nav img{
     width: 100px;
 }
 .signin{
-    border: 1px solid #21B573;
     border-radius: 15px;
     background-color: #21B573;
     color: #ffffff!important;
@@ -110,6 +109,9 @@ footer p{
     margin-bottom: 0;
     padding-bottom: 10px;
 }
+.pol{
+    padding:0 0 15px 15px;
+}
 @media screen and (max-width: 600px) {
     .testy-text {
       padding-right: 10px;
@@ -122,5 +124,12 @@ footer p{
         display: flex;
         justify-content:center;
         
+    }
+    .cat-iocn{
+        margin-bottom: 10px;
+    }
+    .signin{
+        text-align: center;
+        padding: 10px 30px;
     }
   }
