@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+.nav-bg{
+    background-color: #F0FFF0;
+}
+
+nav img{
+    width: 100px;
+}
+.signin{
+    border: 1px solid #21B573;
+    border-radius: 15px;
+    background-color: #21B573;
+    color: #ffffff!important;
+}
+.schedule-color{
+    color: #21B573;
+}
+#hero img{
+    width: 90%;
+    padding-bottom: 4%;
+}
+.red-text{
+    color: #FD511A;
+}
+.container{
+    margin-bottom: 100px;
+}
+.get-started{
+    border: none;
+    border-radius: 8px;
+    background-color: #21B573;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.card-style{
+    border: none;
+}
+.cat-iocn{
+    background-color: #F0FFF0;
+    text-align: center;
+    padding: 10%;
+    border-radius: 12px;
+}
+.cat-iocn:hover{
+    box-shadow: 10px 10px 10px lightgray;
+    background-color: #fff;
+    border: none;
+}
+.cat-iocn p{
+    color: gray;
+}
+.cat-iocn img{
+    width:50%;
+    margin-bottom: 3%;
+}
+.course-card{
+    border-radius: 8px;
+    box-shadow: 2px 2px 15px grey;
+}
+.course-card img{
+    padding: 20px;
+}
+.card-footer{
+    background-color: #fff;
+    border-top: none;
+}
+.card-footer{
+    margin: 0;
+    padding: 0;
+}
+.card-footer img{
+    width: 20px;
+    padding: 0;
+}
+.testimonial h2,.onlineClass h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.rounded-circle{
+    width: 30%;
+}
+.testy-text{
+    padding-right:10%;
+}
+footer{
+    background-color: #282531;
+}
+footer .container{
+    margin-bottom: 0;
+}
+footer li{
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+}
+footer ul li:nth-child(1){
+    font-weight: 700;
+}
+footer .row{
+    padding-top: 40px;
+}
+footer small{
+    text-align: center;
+}
+footer p{
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+    .testy-text {
+      padding-right: 10px;
+      text-align: center;
+    }
+    .rounded-circle{
+        width: 40%;
+    }
+    .rounded-img{
+        display: flex;
+        justify-content:center;
+        
+    }
+  }
